@@ -1,0 +1,166 @@
+    /* fonts*/
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+    /*---------------------
+    ------ common style 
+    ------------------------*/
+    body{
+        font-family: 'Poppins', sans-serif;
+    }
+    main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    width: 1050px;
+    
+    
+}
+
+    /* header start */
+    header{
+        background: #4002a3;
+        margin-bottom: 70px;
+    }
+.header_info{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 167px;
+}
+.header_content h1{
+    font-size: 64px;
+    color: #FFFFFF;
+    
+}
+.header_content button{
+    width: 172px;
+    height: 44px;
+    background: #E02C6D;
+    border: 0px;
+    color:  #FFFFFF;
+    font-size: 16px;
+    margin-top: 24px;
+}
+.header_banner img{
+    width: 556.01px;
+    height: 438px;
+    margin: 153px 141px 86px 0px ;
+}
+
+/* players details */
+.players{
+  
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 30px ;
+    
+}
+.player{
+    
+    width: 330px;
+    height: 474px;
+    
+ 
+ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player_img img{
+    width: 300px;
+    height: 256px;
+    margin: 15px 0px 0px 15px;
+}
+.player_info{
+    margin: 0px 0px 33px 15px;
+}
+.player_info h2{
+    font-size: 28px;
+    margin-top: 10px ;
+    margin-bottom: 0px;
+}
+.player_info p{
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-top: 10px;
+    margin-bottom: 33px;
+}
+/* players section end */
+
+
+/* highlights start */
+.highlights{
+    margin-top: 165px;
+}
+.highlights_details{
+    display: flex;
+    column-gap: 66px;
+}
+.highlights_content{
+    width: 469px;
+    height: 309px; 
+}
+.highlights_content h1{
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+.highlights_content p{
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-top: 8px;
+  
+}
+.highlights_content button{
+    width: 172px;
+    height: 44px;
+    background: #E02C6D;
+    border: 0px;
+    color:  #FFFFFF;
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+.highlights_img img{
+    width: 567px;
+    height: 427px;  
+}
+/* highlights end */
+
+
+/* footer start */
+footer{
+   text-align: center;
+}
+footer .logo img{
+    width: 484px;
+    height: 110px;
+    margin-top: 158px;
+}
+footer .social{
+    display: flex;
+    column-gap: 10px;
+    width: 32px;
+    height: 32px;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 145px;
+    margin-top: 20px;
+    
+}
+footer a{
+    color: gray;
+   margin-right: 8px;
+}
+footer .fab{
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 8px;
+    background-color: gainsboro ;
+   
+}
+footer p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+/* footer end */
