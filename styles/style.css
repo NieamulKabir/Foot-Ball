@@ -63,9 +63,7 @@
     
     width: 330px;
     height: 474px;
-    
- 
- box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
 .player_img img{
     width: 300px;
@@ -85,8 +83,10 @@
     color: #6C6C6C;
     margin-top: 10px;
     margin-bottom: 33px;
+    margin-right: 15px;
 }
 /* players section end */
+
 
 
 /* highlights start */
@@ -126,6 +126,91 @@
     height: 427px;  
 }
 /* highlights end */
+
+
+
+/* team section start */
+.total_team{
+    border-radius: 20PX;
+    margin-top: 145px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.section_team {
+    padding: 40px;
+    text-align: center;
+    font-size: 40px;
+    color: #4002a3;
+    font-weight: 800;
+}
+.teams{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+}
+.team a{
+    padding-bottom: 20px;
+    margin: 0px 20px 10px 30px;
+}
+.team img{
+    height: 200px;
+    width: 200px;
+}
+/* team section end */
+
+
+/* Host section start */
+
+.hosts{
+    margin-top: 145px;
+    width: 1150px;
+   
+}
+.section_title{
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 40px;
+    color: #4002a3;
+    font-weight: 800;
+}
+.hosts_cities{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-row-gap: 60px;
+    grid-column-gap: 40px;
+}
+.cities{
+    display: flex;
+    width: 575px;
+    height: 280px;
+    box-shadow: 0px 0px 40px rgba(108, 78, 156, 0.925);
+    border-radius: 20px;
+}
+.city_banner{
+    margin: 15px 0px 0px 15px;
+}
+.city_banner img{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+   
+}
+.city_banner p{
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+.city_info{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.city_info .city{
+    font-size: 22px;
+    margin: 10px 0px 10px 0px;
+}
+.city_info .content{
+    font-size: 15px;
+    color: #6C6C6C;
+}
+/* Host section start */
 
 
 /* footer start */
