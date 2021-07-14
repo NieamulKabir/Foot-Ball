@@ -19,10 +19,47 @@
 }
 
     /* header start */
+
     header{
         background: #4002a3;
         margin-bottom: 70px;
+       
     }
+.header_details{
+        transition:  1s ease-in-out;
+    }
+.header_details:hover{
+    transform: scale(1.2);
+    
+}
+
+@keyframes sliding {
+    0%{
+        color: #FFFFFF;
+    }
+    20%{
+        color: #140E53;
+       
+    }
+    40%{
+        color:#FFCA00
+    }
+    60%{
+        color: #43A932;
+    }
+    80%{
+        clear: #215288;
+
+    }
+    100%{
+        color: red;
+    }
+}
+.header_details:hover .animation{
+    transition: 2s;
+    animation-play-state: running; 
+    animation: sliding 5s ease-in-out .5s infinite alternate ;
+}
 .header_info{
     display: flex;
     align-items: center;
@@ -33,8 +70,11 @@
 .header_content h1{
     font-size: 64px;
     color: #FFFFFF;
+    width: 485px;
+    height: 230px;
     
 }
+
 .header_content button{
     width: 172px;
     height: 44px;
